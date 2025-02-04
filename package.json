@@ -1,0 +1,16 @@
+{
+  "name": "second-hand",
+  "version": "1.0.0",
+  "description": "Welcome to **Second Hand**, the eco-friendly e-commerce platform designed exclusively for college students! With our platform, students can buy and sell second-hand goods among themselves, creating a sustainable marketplace within their campus. This initiative not only promotes reusing products but also significantly reduces transportation costs as everything is exchanged within the campus itself.",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "cd Server && npm install",
+    "start-server": "cd Server && node server.js",
+    "install-client": "cd Client && npm install",
+    "build-client": "cd Client && npm run build",
+    "start-client": "cd Client && npm run start"
+  },
+  "keywords": [],
+  "author": "Vanshaj Bhatnagar",
+  "license": "MIT"
+}
